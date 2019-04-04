@@ -175,7 +175,6 @@ def stopwordslist(fpath):
 
 
 # 除去停用词
-# 这里需要修改，因为传参过来是元组，字典？？？？
 def movestopwords(sentence):
     stopwords = stopwordslist('stopwords.txt')  # 这里加载停用词的路径
     #print(stopwords)
